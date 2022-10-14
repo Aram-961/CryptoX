@@ -29,7 +29,7 @@ const Coin = () => {
                     </div>
                     <div className="info">
                         <div className="coin-heading">
-                            {/* Checking if image exists  so i can display it*/}
+                            {/* Checking if image exists so i can display it*/}
                             {coin.image ? <img src={coin.image.small} alt='' /> : null}
                             <p>{coin.name}</p>
                             <p>{coin.symbol}</p>
